@@ -1,0 +1,2 @@
+# EncaminhamentoTelegramWhatsapp
+Encaminhamento Telegram para Whatsapp
