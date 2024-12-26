@@ -12,19 +12,22 @@ Este projeto contém dois scripts principais que utilizam as bibliotecas 'node-t
 
 1. Clone este repositório:
 
-'''bash
+```bash
+Copiar código
 git clone https://github.com/seu-usuario/seu-repositorio.git
-
+```
 2. Navegue até o diretório do projeto:
 
 ```bash
 Copiar código
 cd seu-repositorio
-Instale as dependências:
+```
+3. Instale as dependências:
 
 ```bash
 Copiar código
 npm install node-telegram-bot-api venom-bot
+```
 Configuração
 Abra os arquivos Telegram-para-Whatsapp.js e Captura-Codigo-Grupo-Whatsapp.js.
 Substitua as seguintes variáveis com suas próprias informações:
