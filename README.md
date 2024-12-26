@@ -1,21 +1,23 @@
 # Bot de Encaminhamento Telegram para WhatsApp
 
-Este projeto contém dois scripts principais que utilizam as bibliotecas node-telegram-bot-api e venom-bot para criar uma integração entre grupos do Telegram e WhatsApp. O objetivo é monitorar mensagens em um grupo do Telegram e replicá-las em um grupo do WhatsApp, além de capturar códigos de grupo do WhatsApp.
+Este projeto contém dois scripts principais que utilizam as bibliotecas 'node-telegram-bot-api' e 'venom-bot' para criar uma integração entre grupos do Telegram e WhatsApp. O objetivo é monitorar mensagens em um grupo do Telegram e replicá-las em um grupo do WhatsApp, além de capturar códigos de grupo do WhatsApp.
 
-Importante: Para que o bot consiga ler as mensagens em um grupo do Telegram, é preciso que ele tenha permissões de Leitura de Mensagens. Caso o seu grupo do Telegram tenha um bot que escreva mensagens e você queira removê-lo, será necessário adicionar (ou manter) outro bot que tenha permissão para ler essas mensagens. Esse bot leitor será o responsável por encaminhar as mensagens para o WhatsApp.
+> **Importante**: Para que o bot consiga ler as mensagens em um grupo do Telegram, é preciso que ele tenha permissões de Leitura de Mensagens. Caso o seu grupo do Telegram tenha um bot que escreva mensagens e você queira removê-lo, será necessário adicionar (ou manter) outro bot que tenha permissão para ler essas mensagens. Esse bot leitor será o responsável por encaminhar as mensagens para o WhatsApp.
 
-Requisitos
-Node.js
-Bibliotecas: node-telegram-bot-api e venom-bot
-Instalação
-Clone este repositório:
+## Requisitos
+- Node.js
+- Bibliotecas: node-telegram-bot-api e venom-bot
 
-bash
-Copiar código
+## Instalação
+
+1. Clone este repositório:
+
+'''bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
-Navegue até o diretório do projeto:
 
-bash
+2. Navegue até o diretório do projeto:
+
+'''bash
 Copiar código
 cd seu-repositorio
 Instale as dependências:
