@@ -28,12 +28,12 @@ cd seu-repositorio
 Copiar código
 npm install node-telegram-bot-api venom-bot
 ```
-Configuração
-Abra os arquivos Telegram-para-Whatsapp.js e Captura-Codigo-Grupo-Whatsapp.js.
-Substitua as seguintes variáveis com suas próprias informações:
-TELEGRAM_TOKEN: Seu token de bot do Telegram.
-TELEGRAM_GROUP_ID: O ID do grupo do Telegram que deseja monitorar.
-WHATSAPP_GROUP_ID: O ID do grupo do WhatsApp que deseja integrar.
+# Configuração
+1. Abra os arquivos `Telegram-para-Whatsapp.js` e `Captura-Codigo-Grupo-Whatsapp.js`.
+2. Substitua as seguintes variáveis com suas próprias informações:
+- `TELEGRAM_TOKEN`: Seu token de bot do Telegram.
+- `TELEGRAM_GROUP_ID`: O ID do grupo do Telegram que deseja monitorar.
+- `WHATSAPP_GROUP_ID`: O ID do grupo do WhatsApp que deseja integrar.
 Dica: Certifique-se de que o bot adicionado ao grupo do Telegram possa ler as mensagens.
 
 Uso
