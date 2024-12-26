@@ -1,4 +1,4 @@
-##Bot de Encaminhamento Telegram para WhatsApp
+# Bot de Encaminhamento Telegram para WhatsApp
 
 Este projeto contém dois scripts principais que utilizam as bibliotecas node-telegram-bot-api e venom-bot para criar uma integração entre grupos do Telegram e WhatsApp. O objetivo é monitorar mensagens em um grupo do Telegram e replicá-las em um grupo do WhatsApp, além de capturar códigos de grupo do WhatsApp.
 
