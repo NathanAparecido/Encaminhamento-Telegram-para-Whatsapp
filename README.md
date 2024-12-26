@@ -17,12 +17,12 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 
 2. Navegue até o diretório do projeto:
 
-'''bash
+```bash
 Copiar código
 cd seu-repositorio
 Instale as dependências:
 
-bash
+```bash
 Copiar código
 npm install node-telegram-bot-api venom-bot
 Configuração
