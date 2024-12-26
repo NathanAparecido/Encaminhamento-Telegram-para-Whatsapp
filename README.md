@@ -34,30 +34,32 @@ npm install node-telegram-bot-api venom-bot
 - `TELEGRAM_TOKEN`: Seu token de bot do Telegram.
 - `TELEGRAM_GROUP_ID`: O ID do grupo do Telegram que deseja monitorar.
 - `WHATSAPP_GROUP_ID`: O ID do grupo do WhatsApp que deseja integrar.
-Dica: Certifique-se de que o bot adicionado ao grupo do Telegram possa ler as mensagens.
+> **Dica**: Certifique-se de que o bot adicionado ao grupo do Telegram possa ler as mensagens.
 
-Uso
-Script 1: Telegram-para-Whatsapp.js
+#3 Uso
+## Script 1: Telegram-para-Whatsapp.js
 Este script inicializa um bot do Telegram e um bot Venom (WhatsApp). Ele monitora mensagens em um grupo do Telegram especificado e as envia para um grupo do WhatsApp.
 
-Execute o script:
-bash
+1. Execute o script:
+```bash
 Copiar código
 node Telegram-para-Whatsapp.js
-O bot irá listar todos os grupos no WhatsApp para obter os IDs.
-Envie mensagens no grupo do Telegram configurado para vê-las replicadas no grupo do WhatsApp.
-Script 2: Captura-Codigo-Grupo-Whatsapp.js
+```
+2. Envie mensagens no grupo do Telegram configurado para vê-las replicadas no grupo do WhatsApp.
+
+## Script 2: Captura-Codigo-Grupo-Whatsapp.js
 Este script inicializa um bot Venom (WhatsApp) e lista todos os chats disponíveis para obter os IDs dos grupos.
 
-Execute o script:
-bash
+1. Execute o script:
+```bash
 Copiar código
 node Captura-Codigo-Grupo-Whatsapp.js
-Espere 10 segundos para que o WhatsApp Web seja carregado.
-Veja a listagem de todos os chats e grupos disponíveis com seus respectivos IDs.
-Contribuição
+```
+2. Espere 10 segundos para que o WhatsApp Web seja carregado.
+3. Veja a listagem de todos os chats e grupos disponíveis com seus respectivos IDs.
+# Contribuição
 Contribuições são bem-vindas! Por favor, envie um pull request ou abra uma issue para discutir o que você gostaria de mudar.
 
-Licença
+# Licença
 Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para obter mais detalhes.
 
